@@ -1,0 +1,271 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:0cf18764-76b8-529c-beb2-234ba5b0f42d",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T12:29:29Z",
+  "component": {
+   "type": "application",
+   "name": "LM",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/LM@83b357604d34",
+   "purl": "pkg:generic/anticloud/LM@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "<contaminated-url-removed>"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "@commander-js/extra-typings",
+   "version": "^14.0.0",
+   "purl": "pkg:npm/@commander-js/extra-typings@^14.0.0",
+   "bom-ref": "npm/@commander-js/extra-typings@^14.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@inquirer/prompts",
+   "version": "^8.0.1",
+   "purl": "pkg:npm/@inquirer/prompts@^8.0.1",
+   "bom-ref": "npm/@inquirer/prompts@^8.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@lmstudio/immer-with-plugins",
+   "version": "^10.1.1",
+   "purl": "pkg:npm/@lmstudio/immer-with-plugins@^10.1.1",
+   "bom-ref": "npm/@lmstudio/immer-with-plugins@^10.1.1"
+  },
+  {
+   "type": "library",
+   "name": "@lmstudio/lms-common",
+   "version": "^0.9.0",
+   "purl": "pkg:npm/@lmstudio/lms-common@^0.9.0",
+   "bom-ref": "npm/@lmstudio/lms-common@^0.9.0"
+  },
+  {
+   "type": "library",
+   "name": "@lmstudio/lms-common-server",
+   "version": "^0.3.0",
+   "purl": "pkg:npm/@lmstudio/lms-common-server@^0.3.0",
+   "bom-ref": "npm/@lmstudio/lms-common-server@^0.3.0"
+  },
+  {
+   "type": "library",
+   "name": "@lmstudio/lms-es-plugin-runner",
+   "version": "^0.0.21",
+   "purl": "pkg:npm/@lmstudio/lms-es-plugin-runner@^0.0.21",
+   "bom-ref": "npm/@lmstudio/lms-es-plugin-runner@^0.0.21"
+  },
+  {
+   "type": "library",
+   "name": "@lmstudio/lms-isomorphic",
+   "version": "^0.5.0",
+   "purl": "pkg:npm/@lmstudio/lms-isomorphic@^0.5.0",
+   "bom-ref": "npm/@lmstudio/lms-isomorphic@^0.5.0"
+  },
+  {
+   "type": "library",
+   "name": "@lmstudio/lms-lmstudio",
+   "version": "^0.0.33",
+   "purl": "pkg:npm/@lmstudio/lms-lmstudio@^0.0.33",
+   "bom-ref": "npm/@lmstudio/lms-lmstudio@^0.0.33"
+  },
+  {
+   "type": "library",
+   "name": "@lmstudio/sdk",
+   "version": "^2.0.0",
+   "purl": "pkg:npm/@lmstudio/sdk@^2.0.0",
+   "bom-ref": "npm/@lmstudio/sdk@^2.0.0"
+  },
+  {
+   "type": "library",
+   "name": "chalk",
+   "version": "^4.1.2",
+   "purl": "pkg:npm/chalk@^4.1.2",
+   "bom-ref": "npm/chalk@^4.1.2"
+  },
+  {
+   "type": "library",
+   "name": "columnify",
+   "version": "^1.6.0",
+   "purl": "pkg:npm/columnify@^1.6.0",
+   "bom-ref": "npm/columnify@^1.6.0"
+  },
+  {
+   "type": "library",
+   "name": "fast-glob",
+   "version": "^3.3.2",
+   "purl": "pkg:npm/fast-glob@^3.3.2",
+   "bom-ref": "npm/fast-glob@^3.3.2"
+  },
+  {
+   "type": "library",
+   "name": "fuzzy",
+   "version": "^0.1.3",
+   "purl": "pkg:npm/fuzzy@^0.1.3",
+   "bom-ref": "npm/fuzzy@^0.1.3"
+  },
+  {
+   "type": "library",
+   "name": "ink",
+   "version": "^6.5.1",
+   "purl": "pkg:npm/ink@^6.5.1",
+   "bom-ref": "npm/ink@^6.5.1"
+  },
+  {
+   "type": "library",
+   "name": "react",
+   "version": "^19.2.0",
+   "purl": "pkg:npm/react@^19.2.0",
+   "bom-ref": "npm/react@^19.2.0"
+  },
+  {
+   "type": "library",
+   "name": "tar",
+   "version": "7.5.2",
+   "purl": "pkg:npm/tar@7.5.2",
+   "bom-ref": "npm/tar@7.5.2"
+  },
+  {
+   "type": "library",
+   "name": "yaml",
+   "version": "^2.7.1",
+   "purl": "pkg:npm/yaml@^2.7.1",
+   "bom-ref": "npm/yaml@^2.7.1"
+  },
+  {
+   "type": "library",
+   "name": "zod",
+   "version": "^3.22.4",
+   "purl": "pkg:npm/zod@^3.22.4",
+   "bom-ref": "npm/zod@^3.22.4"
+  },
+  {
+   "type": "library",
+   "name": "@types/columnify",
+   "version": "^1.5.4",
+   "purl": "pkg:npm/@types/columnify@^1.5.4",
+   "bom-ref": "npm/@types/columnify@^1.5.4"
+  },
+  {
+   "type": "library",
+   "name": "@types/node",
+   "version": "^20.12.5",
+   "purl": "pkg:npm/@types/node@^20.12.5",
+   "bom-ref": "npm/@types/node@^20.12.5"
+  },
+  {
+   "type": "library",
+   "name": "@types/react",
+   "version": "^19.2.0",
+   "purl": "pkg:npm/@types/react@^19.2.0",
+   "bom-ref": "npm/@types/react@^19.2.0"
+  },
+  {
+   "type": "library",
+   "name": "@typescript-eslint/eslint-plugin",
+   "version": "^6.20.0",
+   "purl": "pkg:npm/@typescript-eslint/eslint-plugin@^6.20.0",
+   "bom-ref": "npm/@typescript-eslint/eslint-plugin@^6.20.0"
+  },
+  {
+   "type": "library",
+   "name": "@typescript-eslint/parser",
+   "version": "^6.20.0",
+   "purl": "pkg:npm/@typescript-eslint/parser@^6.20.0",
+   "bom-ref": "npm/@typescript-eslint/parser@^6.20.0"
+  },
+  {
+   "type": "library",
+   "name": "eslint",
+   "version": "^8.56.0",
+   "purl": "pkg:npm/eslint@^8.56.0",
+   "bom-ref": "npm/eslint@^8.56.0"
+  },
+  {
+   "type": "library",
+   "name": "eslint-plugin-import",
+   "version": "^2.29.1",
+   "purl": "pkg:npm/eslint-plugin-import@^2.29.1",
+   "bom-ref": "npm/eslint-plugin-import@^2.29.1"
+  },
+  {
+   "type": "library",
+   "name": "eslint-plugin-react-hooks",
+   "version": "^4.6.0",
+   "purl": "pkg:npm/eslint-plugin-react-hooks@^4.6.0",
+   "bom-ref": "npm/eslint-plugin-react-hooks@^4.6.0"
+  },
+  {
+   "type": "library",
+   "name": "eslint-plugin-tsdoc",
+   "version": "^0.2.17",
+   "purl": "pkg:npm/eslint-plugin-tsdoc@^0.2.17",
+   "bom-ref": "npm/eslint-plugin-tsdoc@^0.2.17"
+  },
+  {
+   "type": "library",
+   "name": "patch-package",
+   "version": "^8.0.0",
+   "purl": "pkg:npm/patch-package@^8.0.0",
+   "bom-ref": "npm/patch-package@^8.0.0"
+  },
+  {
+   "type": "library",
+   "name": "prettier",
+   "version": "^3.2.5",
+   "purl": "pkg:npm/prettier@^3.2.5",
+   "bom-ref": "npm/prettier@^3.2.5"
+  },
+  {
+   "type": "library",
+   "name": "react-devtools-core",
+   "version": "^7.0.1",
+   "purl": "pkg:npm/react-devtools-core@^7.0.1",
+   "bom-ref": "npm/react-devtools-core@^7.0.1"
+  },
+  {
+   "type": "library",
+   "name": "shx",
+   "version": "^0.3.4",
+   "purl": "pkg:npm/shx@^0.3.4",
+   "bom-ref": "npm/shx@^0.3.4"
+  },
+  {
+   "type": "library",
+   "name": "typescript",
+   "version": "^5.3.3",
+   "purl": "pkg:npm/typescript@^5.3.3",
+   "bom-ref": "npm/typescript@^5.3.3"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}

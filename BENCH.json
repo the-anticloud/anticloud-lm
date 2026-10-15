@@ -540,10 +540,10 @@
  "version": "1.0.0",
  "source": {
   "git": {
-   "head": "dcefd5aa69f56b503ae118a7a7ba91cb378a8479",
-   "url": "https://github.com/lmstudio-ai/lms",
-   "branch": "main",
-   "sha_verified_from": "GitHub API commits/main"
+   "url": "https://github.com/NVIDIA/Megatron-LM",
+   "head": "915b1d2d427e526dabc4a0b460562c257376025c",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/lmstudio-ai/lms"
   }
  }
 }

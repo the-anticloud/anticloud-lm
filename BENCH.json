@@ -543,7 +543,7 @@
    "url": "https://github.com/NVIDIA/Megatron-LM",
    "head": "915b1d2d427e526dabc4a0b460562c257376025c",
    "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
-   "previous_substitute": "https://github.com/lmstudio-ai/lms"
+   "previous_substitute": "https://github.com/NVIDIA/Megatron-LM"
   }
  }
 }
